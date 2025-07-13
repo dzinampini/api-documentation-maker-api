@@ -5,7 +5,6 @@ import json
 import os
 from fastapi.middleware.cors import CORSMiddleware
 from typing import Optional
-from openai import OpenAI
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 
 app = FastAPI()
